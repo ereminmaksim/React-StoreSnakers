@@ -1,0 +1,41 @@
+header {
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #EAEAEA;
+  padding: 30px;
+  border-radius: 20px;
+
+  h3, p {
+    margin: 0;
+  }
+
+  img {
+    margin-right: 15px;
+
+  }
+}
+
+.wrapper {
+  position: relative;
+  z-index: 1;
+  padding: 1px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+.backgroundHead {
+  position: absolute;
+  z-index: -1;
+  background: url("https://popsop.ru/wp-content/uploads/reebok_classic_the_city_series_01.jpg") center;
+  opacity: .4;
+  //background-repeat: no-repeat;
+  //background-position: center center;
+  //background-size: cover;
+  //opacity: 50%;
+}
+.colorWhite {
+  color: white;
+}
